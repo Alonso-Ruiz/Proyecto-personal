@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url(../img/fondo4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; /* Ajusta el tamaño del contenido principal para ocupar toda la pantalla */
+    overflow-y: hidden;
+    overflow: hidden;
+  }
+.empresa {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.empresa img {
+    max-width: 200px;
+    margin-right: 5px;
+}
+
+.empresa h2 {
+    font-size: 40px;
+    margin: 0;
+}
+  /* Cambiar el tipo de letra de los elementos h1, h2, h4 */
+  h1 {
+    font-size: 50px;
+    font-family: "Arial", sans-serif;
+    margin-top: 5px;
+  }
+  
+  /* Cambiar el tamaño y tipo de letra del texto "Four'Js" */
+  h2 {
+    font-size: 60px;
+    font-family: "Helvetica", sans-serif;
+    margin-top: 10px;
+  }
+  
+  /* Cambiar el tamaño y tipo de letra del texto secundario */
+  h4 {
+    font-size: 30px;
+    font-family: "Arial", sans-serif;
+    margin-top: 5px;
+  }
+  
+  .navbar {
+    display: flex;
+    height: 60px;
+    background-color: #4464f5;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-right: 50px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .control {
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #24303c;
+    color: white;
+    border-radius: 8px;
+    transition: 0.5s all;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .palabras {
+    padding: 30px;
+    text-align: left;
+    margin-top: 8px;
+  }
+  
+  /*foto*/
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .container img {
+    position: relative;
+    top: -200px;
+    transform: translate(-50%, -60%);
+    width: 220%;
+    height: 220%;
+  }
+
+/*footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 150px;
+    animation: footer 7.5s linear;
+    animation-iteration-count: infinite;
+    position: fixed;
+    bottom: 0;
+  }
+  @keyframes footer{
+    100%,0%{
+      background-color: rgb(243, 56, 56);
+    }
+    8%{
+      background-color: rgb(235, 145, 56);
+    }
+    16%{
+      background-color: rgb(238, 238, 56);
+    }
+    25%{
+      background-color: rgb(146, 236, 56);
+    }
+    33%{
+      background-color: rgb(0,255,0);
+    }
+    41%{
+      background-color: rgb(62, 230, 146);
+    }
+    50%{
+      background-color: rgb(56, 224, 224);
+    }
+    58%{
+      background-color: rgb(61, 145, 230);
+    }
+    66%{
+      background-color: rgb(67, 67, 228);
+    }
+    75%{
+      background-color: rgb(145, 66, 224);
+    }
+    83%{
+      background-color: rgb(228, 81, 228);
+    }
+    91%{
+      background-color: rgb(233, 74, 154);
+    }
+  }
+  
+  
+  .footer-content h2 {
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 0; /* Elimina el margen superior */
+    margin-bottom: 10px; /* Establece un margen inferior de 10px */
+  }
+  
+  .footer-content h5 {
+    font-size: 2.2em;
+    margin-top: 0; /* Elimina el margen superior */
+    margin-bottom: 10px; /* Establece un margen inferior de 10px */
+    text-align: center;
+  }
+
+
+
+  @media screen and (max-width: 480px) {
+    .empresa {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .empresa img {
+      max-width: 150px;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .empresa h2 {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+  
+    h1 {
+      font-size: 40px;
+      margin-top: 0;
+    }
+  
+    h2 {
+      font-size: 50px;
+      margin-top: 5px;
+    }
+  
+    h4 {
+      font-size: 25px;
+      margin-top: 0;
+    }
+  
+    .navbar {
+      height: 50px;
+      padding: 5px;
+    }
+  
+    .navbar a {
+      font-size: 20px;
+      margin-right: 30px;
+    }
+  
+    .logo img {
+      height: 60px;
+    }
+  
+    .control {
+      padding: 5px;
+      font-size: 12px;
+    }
+  
+    .palabras {
+      padding: 10px;
+    }
+  
+    .container img {
+      top: -150px;
+      width: 300%;
+      height: 300%;
+    }
+  
+    .footer-content h2 {
+      font-size: 2em;
+    }
+  
+    .footer-content h5 {
+      font-size: 1.5em;
+    }
+  }
+  

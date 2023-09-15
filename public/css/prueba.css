@@ -1,0 +1,88 @@
+body{
+    background-color: #7270EC;
+}
+
+.grid{
+    text-align: center;
+    display: grid;
+    grid-template-columns:  33% 33% 33%;
+    gap: 1em;
+}
+
+.image{
+    width: 600px;
+    height: 70%;
+}
+
+form{
+    color: white;
+    background: #242430;
+    font-family: Arial, sans-serif;
+    max-width: 950px;     
+    margin: auto;
+    padding: 35px;
+    border:none;
+    border-radius: 5px;
+}
+
+.nombre{
+    width:80%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #24303c;
+    color: white;
+    border-radius: 8px;
+}
+
+.precio{
+    width:80%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #24303c;
+    color: white;
+    border-radius: 8px;
+}
+
+.vendedor{
+    width:90%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #24303c;
+    color: white;
+    border-radius: 8px;
+}
+
+.telefono{
+    width:90%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #24303c;
+    color: white;
+    border-radius: 8px;
+}
+
+.cantidad{
+    width:80%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #24303c;
+    color: white;
+    border-radius: 8px;
+}
+
+.boton{
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid #7270EC;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.boton:hover{
+    background-color: #7270EC;
+}
